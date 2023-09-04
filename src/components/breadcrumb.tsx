@@ -17,26 +17,26 @@ interface BreadcrumbsProps {
 }
 
 export const Breadcrumbs = ({ breadList }: BreadcrumbsProps) => {
-  let globalUrl = window.location.href;
-  const updateUrl = (url: string) => {
-    if (url) {
-      globalUrl = `${globalUrl}${url}`;
-      return globalUrl;
-    }
-  };
+  // let globalUrl = window.location.href;
+  // const updateUrl = (url: string) => {
+  //   if (url) {
+  //     globalUrl = `${globalUrl}${url}`;
+  //     return globalUrl;
+  //   }
+  // };
 
   const breadBox = (breadList: linkList[]): any => {
     return (
       breadList &&
       breadList.map((el: linkList, index: number) => (
         <BreadcrumbItem key={index}>
-          <BreadcrumbLink
+          {/* <BreadcrumbLink
             as={Link}
             variant="breadcrumb"
             href={updateUrl(el.link)}
           >
             {el.title}
-          </BreadcrumbLink>
+          </BreadcrumbLink> */}
         </BreadcrumbItem>
       ))
     );
