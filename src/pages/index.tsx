@@ -23,7 +23,7 @@ export default function Home({
     <>
       <WithSubnavigation />
       <Container maxW="8xl">
-        <Hero title="Karta Dnia" description="disudisudisuiduddsu" />
+        <Hero title="Karta Dnia" description="disudisudisuiduddsu wifp ofdfoidpoqiqifpodifdipodaiopif"  />
         <PageTitle
           title="Krajowy System e-Faktur (KSeF)"
           description="Krajowy System e-Faktur to platforma do wystawiania i otrzymywania faktur drogą elektroniczną. Korzystaj z aplikacji KSeF i środowiska testowego, sprawdź pytania i odpowiedzi."
